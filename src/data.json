@@ -1,0 +1,448 @@
+{
+  "treatments": [
+    {
+      "id": 0,
+      "name": "Endocrinology",
+      "lname": "endocrinology",
+      "desc": "Unlocking Hormonal Balance for a Vibrant Life.",
+      "body": "Endocrinology is a branch of medicine that deals with the study of hormones and their effects on the body. Hormones are chemical messengers produced by glands in our body, and they play a crucial role in regulating various processes, such as growth, metabolism, reproduction, and mood.<br/><br/> For instance, imagine your body is like a big orchestra, and hormones are the conductors. Just like a conductor guides the musicians to play in harmony, hormones direct different parts of your body to work together and maintain balance.<br/><br/> There are many glands in your body that produce hormones, such as the thyroid gland, adrenal glands, and pancreas. Each gland has its own role and produces specific hormones. For example, the thyroid gland produces hormones that control your metabolism, while the adrenal glands produce hormones that help your body respond to stress. Sometimes, the balance of hormones can be disrupted, and that's when problems occur. For instance, if the thyroid gland produces too much hormone, it can make you feel anxious or restless. On the other hand, if it doesn't produce enough hormone, you may feel tired or gain weight.<br/><br/> Internal Medicine specialists like Dr. Yogesh Jain, are like expert conductors who study these hormones and their effects. They help identify when there is an imbalance or when a gland is not functioning properly. They can run tests and prescribe treatments to restore the balance and keep your body's orchestra playing in harmony.",
+      "link":"/images/005.jpg",
+      "icon":"/icon/icon5.png",
+      "treatments": [
+        {
+          "name": "Diabetes mellitus (Type 1 and Type 2)"
+        },
+        {
+          "name": "Thyroid disorders (such as hypothyroidism and hyperthyroidism)"
+        },
+        {
+          "name": "Adrenal gland disorders (such as adrenal insufficiency or Cushing's syndrome)"
+        },
+        {
+          "name": "Pituitary gland disorders (such as pituitary tumors or hypopituitarism)"
+        },
+        {
+          "name": "Parathyroid gland disorders (such as hyperparathyroidism or hypoparathyroidism)"
+        },
+        {
+          "name": "Disorders of calcium and bone metabolism (such as osteoporosis or vitamin D deficiency)"
+        },
+        {
+          "name": "Polycystic ovary syndrome (PCOS)"
+        },
+        {
+          "name": "Disorders of the reproductive glands (such as hypogonadism or menopause management)"
+        },
+        {
+          "name": "Metabolic disorders (such as metabolic syndrome or lipid disorders)"
+        },
+        {
+          "name": "Disorders of the endocrine system associated with pregnancy (such as gestational diabetes or thyroid disorders)"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Cardiology",
+      "lname": "cardiology",
+      "link":"/images/008.jpg",
+      "desc": "Heart care that beats with excellence.",
+      "icon":"/icon/icon2.png",
+      "body":"Cardiology is the medical field that focuses on the heart and blood vessels. It deals with diagnosing, treating, and preventing conditions related to the heart and its proper functioning.<br/><br/> Metaphorically, think of your heart as a powerful pump that keeps your body running smoothly. It works tirelessly to circulate blood throughout your body, delivering oxygen and nutrients to all your organs and tissues. The blood vessels, like roads, carry the blood to different parts of your body.<br/><br/> Cardiologists are like mechanics for your heart. They specialize in understanding how your heart works, identifying any problems, and finding ways to fix or manage them. They use various tools and tests to examine your heart, such as listening with a stethoscope, performing an electrocardiogram (ECG) to measure the heart's electrical activity, or conducting an echocardiogram to create images of your heart.<br/><br/> Internists like Dr. Yogesh Jain, can help with a wide range of heart-related issues, including heart attacks, heart failure, high blood pressure, irregular heart rhythms, and blocked blood vessels. They may recommend lifestyle changes, medications, or procedures like angioplasty or bypass surgery to improve your heart's health.<br/><br/> It's important to take care of your heart by eating a healthy diet, exercising regularly, not smoking, managing stress, and keeping an eye on your blood pressure and cholesterol levels. Regular check-ups with a cardiologist can also help catch any problems early on and ensure that your heart stays in good shape.<br/><br/> Remember, your heart is a vital organ, and understanding cardiology can empower you to make informed decisions about your heart health and live a healthier life.",
+      "treatments": [
+        {
+          "name": "Diabetes mellitus (Type 1 and Type 2)"
+        },
+        {
+          "name": "Heart failure"
+        },
+        {
+          "name": "Arrhythmias (irregular heart rhythms)"
+        },
+        {
+          "name": "Atherosclerosis (hardening of the arteries)"
+        },
+        {
+          "name": "Myocardial infarction (heart attack)"
+        },
+        {
+          "name": "Angina (chest pain)"
+        },
+        {
+          "name": "Pericardial diseases (inflammation of the sac around the heart)"
+        },
+        {
+          "name": "Cardiomyopathies (diseases of the heart muscle)"
+        },
+        {
+          "name": "Deep vein thrombosis (blood clot in the veins)"
+        },
+        {
+          "name": "Pulmonary embolism (blood clot in the lungs)"
+        },
+        {
+          "name": "Syncope (fainting)"
+        },
+        {
+          "name": "High cholesterol and lipid disorders"
+        },
+        {
+          "name": "Endocarditis (infection of the heart valves or inner lining)"
+        },
+        {
+          "name": "Pericarditis (inflammation of the sac surrounding the heart)"
+        },
+        {
+          "name": "Hypertrophic cardiomyopathy (thickened heart muscle)"
+        },
+        {
+          "name": "Cardiac conduction system disorders"
+        },
+        {
+          "name": "Congenital heart defects (present from birth)"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Cardiovascular Medicine",
+      "lname": "cardiovascularmedicine",
+      "desc": "Heart care with expertise, compassion, and your well-being in mind.",
+      "link":"/images/007.jpg",
+      "icon":"/icon/icon1.png",
+      "body":"Cardiovascular medicine is a branch of medicine that focuses on treating problems related to the heart and blood vessels. It includes different types of medications that help improve the health of your heart and blood vessels, and ultimately, keep your cardiovascular system working well.<br/><br/> These medications are prescribed by doctors based on your specific condition. They can help manage various cardiovascular issues like high blood pressure, high cholesterol, heart rhythm problems, and heart failure.<br/><br/> The medications work in different ways. For example, if you have high blood pressure, there are medicines that can relax your blood vessels, making it easier for blood to flow through them and reducing the strain on your heart. This helps to lower your blood pressure and prevent complications.<br/><br/> Another common condition is high cholesterol, which can lead to the build-up of plaque in your arteries. Medications for high cholesterol help reduce the amount of cholesterol in your blood, which can lower the risk of heart disease and stroke.<br/><br/> For heart rhythm problems, there are medications that help regulate your heart's electrical activity, ensuring it beats at a normal and steady pace.<br/><br/> It's important to remember that cardiovascular medications are not a cure, but rather a way to manage your condition and prevent further complications. They should be taken as prescribed by your doctor and it's important to follow their instructions carefully.<br/><br/> It's also worth mentioning that like any medication, cardiovascular medicines may have some side effects. However, your doctor will monitor you closely and work with you to find the best medication with the fewest side effects for your specific situation.<br/><br/> In addition to taking medication, adopting a healthy lifestyle is crucial for cardiovascular health. This includes eating a balanced diet, exercising regularly, not smoking, managing stress, and maintaining a healthy weight.<br/><br/> By combining the use of cardiovascular medications with a healthy lifestyle, you can improve your heart health and overall well-being. Doctors such as Dr. Yogesh Jain, will work closely with you to create a personalized treatment plan to meet your specific needs and goals.",
+      "treatments": [
+        {
+          "name": "Hypertension (high blood pressure)"
+        },
+        {
+          "name": "Coronary artery disease"
+        },
+        {
+          "name": "Valvular heart disease"
+        },
+        {
+          "name": "Peripheral artery disease"
+        },
+        {
+          "name": "Deep vein thrombosis and pulmonary embolism"
+        },
+        {
+          "name": "Atherosclerosis (hardening of the arteries)"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Diabetology",
+      "lname": "diabetology",
+      "link":"/images/003.jpg",
+      "icon":"/icon/icon3.png",
+      "desc": "Empowering Lives, Defeating Diabetes Together.",
+      "body":"Diabetology is a branch of medicine that focuses on diabetes, a condition that affects how your body handles sugar or glucose. Imagine your body as a car, and glucose is the fuel that keeps the car running. When you eat food, especially foods that contain carbohydrates, your body breaks them down into glucose, which enters your bloodstream. Just like a car needs a key to use fuel, your body needs a hormone called insulin to let the glucose enter your cells and provide energy.<br/><br/> In people with diabetes, there's a problem with insulin. There are two main types of diabetes: type 1 and type 2. In type 1 diabetes, your body doesn't produce enough insulin or doesn't produce it at all. It's like having a car without a key to use the fuel. In type 2 diabetes, your body either doesn't produce enough insulin or can't use it effectively. It's like having a car with a key, but the key doesn't work properly.<br/><br/> When there's not enough insulin or it can't do its job, glucose starts to build up in your bloodstream. This high level of glucose can cause various symptoms such as increased thirst, frequent urination, fatigue, and blurry vision. If left untreated, it can lead to more serious complications like heart problems, kidney damage, and nerve damage.<br/><br/> Internists such as Dr. Yogesh Jain, are doctors who specialize in managing diabetes. They help patients understand their condition, develop a treatment plan, and make lifestyle changes to keep their blood sugar levels in control. They may prescribe medications, advise on dietary changes, and recommend regular physical activity to manage diabetes effectively.<br/><br/> Such specialists also monitor your blood sugar levels through regular tests and make adjustments to your treatment plan as needed. They work closely with you to provide education, support, and guidance to help you lead a healthy life despite having diabetes.<br/><br/> Remember, managing diabetes is a team effort, and your diabetologist is an essential part of your team. They are there to help you understand your condition, provide the necessary tools and knowledge, and support you in living a fulfilling life while managing diabetes.",
+      "treatments": [
+        {
+          "name": "Type 1 diabetes: A chronic condition where the pancreas produces little or no insulin."
+        },
+        {
+          "name": "Type 2 diabetes: A chronic condition characterized by insulin resistance and high blood sugar levels."
+        },
+        {
+          "name": "Diabetic ketoacidosis (DKA): A potentially life-threatening complication of diabetes caused by a severe shortage of insulin."
+        },
+        {
+          "name": "Hyperglycemia: High blood sugar levels that can occur in both type 1 and type 2 diabetes."
+        },
+        {
+          "name": "Hypoglycemia: Low blood sugar levels that can result from medication, excessive insulin, or inadequate food intake."
+        },
+        {
+          "name": "Diabetic neuropathy: Nerve damage caused by long-term diabetes that can lead to numbness, tingling, and pain, especially in the feet and hands."
+        },
+        {
+          "name": "Diabetic retinopathy: A complication that affects the eyes, leading to vision problems or even blindness."
+        },
+        {
+          "name": "Diabetic nephropathy: Kidney damage caused by diabetes, which can progress to chronic kidney disease."
+        },
+        {
+          "name": "Diabetic foot ulcers: Open sores or wounds on the feet that are common in people with diabetes due to poor circulation and nerve damage."
+        },
+        {
+          "name": "Cardiovascular complications: Diabetes increases the risk of heart disease, stroke, and other cardiovascular problems, which internists help manage."
+        },
+        {
+          "name": "Metabolic syndrome: A cluster of conditions, including high blood pressure, high blood sugar, excess body fat, and abnormal cholesterol levels, often associated with type 2 diabetes."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Infectious Diseases and Community Health",
+      "lname": "infectious-diseases-and-community-health",
+      "link":"/images/004.jpg",
+      "icon":"/icon/icon7.png",
+      "desc": "Protecting communities, one infection at a time.",
+      "body":"Community health refers to the well-being and health of a group of people who live in the same area, such as a neighborhood, town, or city. It focuses on promoting and protecting the health of everyone in that community.<br/><br/> Simply stated, community health means looking after the health and well-being of all the people who live in our community. It's about taking care of our neighbors, friends, and families. When Dr. Yogesh Jain talks about community health, he think about keeping everyone safe and healthy by working together.<br/><br/> It's like a big team effort where every person plays a part in making sure that the entire community has the opportunity to live a happy and healthy life. We do this by promoting things like good nutrition, exercise, regular check-ups with doctors, and making sure that our environment is clean and safe for everyone. By taking care of our community's health, we can make sure that we all thrive and enjoy a good quality of life together.",
+      "treatments": [
+        {
+          "name": "Influenza (flu)"
+        },
+        {
+          "name": "Tuberculosis (TB)"
+        },
+        {
+          "name": "Pneumonia"
+        },
+        {
+          "name": "Urinary tract infections (UTIs)"
+        },
+        {
+          "name": "Gastrointestinal infections (such as food poisoning)"
+        },
+        {
+          "name": "Sexually transmitted infections (STIs)"
+        },
+        {
+          "name": "HIV/AIDS"
+        },
+        {
+          "name": "Hepatitis (A, B, C, etc.)"
+        },
+        {
+          "name": "Meningitis"
+        },
+        {
+          "name": "Lyme disease"
+        },
+        {
+          "name": "Skin infections (such as cellulitis)"
+        },
+        {
+          "name": "Respiratory tract infections (such as bronchitis or sinusitis)"
+        },
+        {
+          "name": "MRSA (methicillin-resistant Staphylococcus aureus) infections"
+        },
+        {
+          "name": "Osteomyelitis (bone infection)"
+        },
+        {
+          "name": "Infective endocarditis (heart valve infection)"
+        }
+      ]
+    },
+   
+    {
+      "id": 6,
+      "name": "Pulmonology",
+      "lname": "pulmonology",
+      "link":"/images/006.jpg",
+      "icon":"/icon/icon9.png",
+      "body":"Pulmonology is a medical field that focuses on the health of your lungs and respiratory system. It deals with the diagnosis, treatment, and prevention of diseases and conditions that affect your breathing.<br/><br/> Your lungs are essential organs that allow you to breathe. They take in oxygen from the air you inhale and remove carbon dioxide, a waste gas, when you exhale. The air you breathe passes through your windpipe, or trachea, which then branches into smaller tubes called bronchi. These bronchi further divide into even smaller tubes called bronchioles, which finally lead to tiny air sacs called alveoli.<br/><br/> Pulmonologists are doctors who specialize in understanding how your lungs work and treating lung-related conditions. They help diagnose and treat various lung diseases such as asthma, chronic obstructive pulmonary disease (COPD), pneumonia, tuberculosis, and lung cancer, among others. They also address issues related to breathing difficulties, coughing, wheezing, chest pain, and shortness of breath.<br/><br/> During your visit to a pulmonologist, they will ask you questions about your symptoms, medical history, and conduct a physical examination. They may also recommend additional tests, such as lung function tests, chest X-rays, or CT scans, to better understand your condition.<br/><br/> Once they have gathered all the necessary information, they will explain your diagnosis and discuss the available treatment options with you. These treatments may include medications, inhalers, lifestyle modifications, breathing exercises, or, in more severe cases, surgery.<br/><br/> Internal Medicine specialists such as Dr. Yogesh Jain, work closely with other healthcare professionals, such as respiratory therapists and nurses, to provide comprehensive care for their patients. They may also collaborate with other specialists, like allergists, cardiologists, or oncologists, depending on the specific condition. Remember, if you have any concerns or questions about your lung health, it's important to consult a pulmonologist. They are experts in helping you breathe easier and improving your lung function, ensuring that you receive the best care possible for your respiratory wellbeing.", "desc": "Breathing life into your lung health.",
+      "treatments": [
+        {
+          "name": "Pneumonia: An infection that causes inflammation in the lungs."
+        },
+        {
+          "name": "Tuberculosis (TB): A bacterial infection that primarily affects the lungs."
+        },
+        {
+          "name": "Influenza (Flu): A viral infection that affects the respiratory system."
+        },
+        {
+          "name": "Bronchitis: Inflammation of the bronchial tubes, often caused by viral or bacterial infections."
+        },
+        {
+          "name": "Asthma: A chronic condition characterized by inflammation and narrowing of the airways."
+        },
+        {
+          "name": "Chronic Obstructive Pulmonary Disease (COPD): A group of progressive lung diseases, including chronic bronchitis and emphysema."
+        },
+        {
+          "name": "Pertussis (Whooping cough): A highly contagious bacterial infection that causes severe coughing spells."
+        },
+        {
+          "name": "Respiratory Syncytial Virus (RSV): A common viral infection that primarily affects infants and young children."
+        },
+        {
+          "name": "Legionnaires' Disease: A severe form of pneumonia caused by the Legionella bacteria."
+        },
+        {
+          "name": "Lung abscess: A pus-filled cavity in the lung, often resulting from a bacterial infection."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Rheumatology",
+      "lname": "rheumatology",
+      "icon":"/icon/icon10.png",
+      "link":"/images/001.jpg",
+      "body":"Rheumatology is a branch of medicine that focuses on the diagnosis and treatment of conditions that affect your joints, muscles, bones, and immune system. The immune system is like your body's defense system, protecting you from harmful germs and infections. Sometimes, the immune system gets confused and starts attacking your own healthy cells and tissues by mistake. This is called an autoimmune disease. It's like your body's defense system is mistakenly attacking itself.<br/><br/> When this happens, it can cause various symptoms and problems in different parts of the body. For example, you may experience joint pain, swelling, stiffness, or even difficulty moving. Other common symptoms can include fatigue, fever, and sometimes skin rashes. There are many different types of autoimmune diseases, and each one can affect different parts of the body. Some examples include rheumatoid arthritis, lupus, and psoriatic arthritis. The good news is that internal medicine specialists like Dr. Yogesh Jain, are doctors who specialize in understanding and treating these conditions. They can work with you to develop a personalized treatment plan to help manage your symptoms, reduce inflammation, and slow down the progression of the disease.<br/><br/> Treatment options for autoimmune diseases can vary depending on the specific condition and its severity. It may include medications, such as anti-inflammatory drugs or immunosuppressants, physical therapy to help improve mobility and strength, and lifestyle changes like managing stress, getting enough rest, and maintaining a healthy diet. Remember, while autoimmune diseases can be challenging, working closely with a rheumatologist and following your treatment plan can help you live a better quality of life and manage your symptoms effectively.", "desc": "Conquering autoimmune challenges together.",
+      "treatments": [
+        {
+          "name": "Rheumatoid arthritis"
+        },
+        {
+          "name": "Systemic lupus erythematosus (SLE)"
+        },
+        {
+          "name": "Sjögren's syndrome"
+        },
+        {
+          "name": "Psoriatic arthritis"
+        },
+        {
+          "name": "Ankylosing spondylitis"
+        },
+        {
+          "name": "Vasculitis"
+        },
+        {
+          "name": "Polymyalgia rheumatica"
+        },
+        {
+          "name": "Giant cell arteritis"
+        },
+        {
+          "name": "Behçet's disease"
+        },
+        {
+          "name": "Mixed connective tissue disease"
+        },
+        {
+          "name": "Polymyositis"
+        },
+        {
+          "name": "Dermatomyositis"
+        },
+        {
+          "name": "Systemic sclerosis (scleroderma)"
+        },
+        {
+          "name": "Antiphospholipid syndrome"
+        },
+        {
+          "name": "Myasthenia gravis"
+        },
+        {
+          "name": "Autoimmune hepatitis"
+        },
+        {
+          "name": "Primary biliary cholangitis"
+        },
+        {
+          "name": "Autoimmune thyroid diseases (such as Graves' disease and Hashimoto's thyroiditis)"
+        },
+        {
+          "name": "Inflammatory bowel diseases with extraintestinal manifestations (such as Crohn's disease and ulcerative colitis)"
+        },
+        {
+          "name": "Celiac disease (associated with autoimmune response to gluten)"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Neurology",
+      "lname": "neurology",
+      "icon":"/icon/icon8.png",
+      "link":"/images/010.jpg",
+      "body":"Neurology is the medical specialty that focuses on diagnosing and treating disorders of the nervous system, including the brain, spinal cord, and nerves. Neurologists study the structure and function of the nervous system and provide medical care for conditions such as epilepsy, stroke, multiple sclerosis, and Parkinson's disease.<br/><br/> Imagine your body is like a complex city, and the nervous system is like the city's communication network. The nervous system consists of the brain, spinal cord, and nerves, which are like the roads, highways, and communication lines connecting different parts of the city.<br/><br/> Just like the roads help cars move around the city and deliver goods, the nerves help messages travel throughout your body. These messages allow you to do everything from moving your muscles to sensing the world around you. The brain is like the city's control center, making decisions and coordinating all the activities.<br/><br/> Neurologists are like traffic police officers or city engineers who specialize in understanding and managing the city's communication network. They diagnose and treat problems that can affect this network, such as traffic jams (like nerve damage), roadblocks (like strokes), or electrical issues (like seizures).<br/><br/> During a visit to the physician, they will listen to your concerns, examine you, and may conduct tests to understand how the communication network is functioning. Just like engineers use blueprints and tools to fix road or electrical problems, neurologists use their expertise, tests, and treatments to address issues with your nervous system.<br/><br/> They may prescribe medications, recommend therapy or lifestyle changes, or refer you to other specialists if needed. Their goal is to help optimize the functioning of your nervous system, just like engineers and traffic police work together to ensure smooth traffic flow and the efficient operation of a city.",
+      "desc": "Guiding your neurological health towards a brighter tomorrow.",
+      "treatments": [
+        {
+          "name": "Headaches and migraines"
+        },
+        {
+          "name": "Peripheral neuropathy (nerve damage in the extremities)"
+        },
+        {
+          "name": "Dizziness and vertigo"
+        },
+        {
+          "name": "Seizure disorders, such as epilepsy"
+        },
+        {
+          "name": "Stroke and transient ischemic attacks (TIAs)"
+        },
+        {
+          "name": "Multiple sclerosis"
+        },
+        {
+          "name": "Parkinson's disease"
+        },
+        {
+          "name": "Alzheimer's disease and other forms of dementia"
+        },
+        {
+          "name": "Neurological complications of systemic diseases (e.g., diabetes, autoimmune disorders)"
+        },
+        {
+          "name": "Neuromuscular disorders (e.g., myasthenia gravis, muscular dystrophy)"
+        },
+        {
+          "name": "Sleep disorders, such as insomnia or sleep apnea"
+        },
+        {
+          "name": "Chronic pain syndromes, including fibromyalgia"
+        },
+        {
+          "name": "Neurological manifestations of infections (e.g., meningitis, encephalitis)"
+        },
+        {
+          "name": "Neurological complications of medication or toxic exposures"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Gastrointestinal Disorders",
+      "lname": "gastro-intestinal-disorders",
+      "link":"/images/009.jpg",
+      "icon":"/icon/icon6.png",
+      "desc": "Your path to a healthier gut and happier life.",
+      "body":"Gastroenterology is a medical specialty that focuses on the diagnosis, treatment, and prevention of disorders and diseases related to the digestive system. The digestive system is responsible for the breakdown, absorption, and processing of food and nutrients in the body. It includes organs such as the esophagus, stomach, small intestine, large intestine (including colon), liver, gallbladder, and pancreas.<br/><br/> For instance, just imagine that your gastrointestinal tract is like a long, winding tube inside your body responsible for processing the food you eat. It starts in your mouth, goes down your throat, and continues through your stomach and intestines until it reaches your bottom.<br/><br/> Sometimes, there can be small differences or problems with this tube that may cause issues. These differences are called anomalies. They might affect how your body breaks down food, absorbs nutrients, or gets rid of waste.<br/><br/> For example, some people may have a narrow part of the tube, almost like a little blockage, which can slow down or block the movement of food. Others may have parts of the tube not connected as they should be. These anomalies can lead to symptoms like stomach pain, difficulty swallowing, or trouble going to the bathroom.<br/><br/> The good news is that many of these anomalies can be managed or treated with the help of specialized doctors called gastroenterologists and internists. Internists like Dr. Yogesh Jain, are experts in understanding the anomaly and can suggest the right treatment or lifestyle changes to help you feel better.<br/><br/> If you ever experience any stomach or digestion-related problems, it's essential to share your symptoms with your doctor so they can figure out what might be going on and recommend the best plan to help you stay healthy.",
+      "treatments": [
+        { "name": "Gastroesophageal reflux disease (GERD): A condition where stomach acid flows back into the esophagus, causing heartburn and irritation." },
+        { "name": "Peptic ulcers: Sores that form on the lining of the stomach, small intestine, or esophagus, often caused by the bacterium Helicobacter pylori or the use of certain medications like nonsteroidal anti-inflammatory drugs (NSAIDs)." },
+        { "name": "Inflammatory bowel disease (IBD): Conditions such as Crohn's disease and ulcerative colitis, which cause chronic inflammation of the digestive tract." },
+        { "name": "Irritable bowel syndrome (IBS): A functional disorder of the digestive system characterized by abdominal pain, bloating, and changes in bowel habits." },
+        { "name": "Gallbladder and biliary tract diseases: Conditions affecting the gallbladder and the network of ducts that transport bile from the liver to the small intestine." },
+        { "name": "Liver diseases: Including viral hepatitis (such as hepatitis B and C), fatty liver disease, cirrhosis, and others." },
+        { "name": "Pancreatic diseases: Disorders of the pancreas, including pancreatitis and pancreatic cancer." }
+        ]
+    }
+  ],
+  "news": [
+    {
+      "id": 0,
+      "title": "World Hepatitis Day: Things to know about viral hepatitis",
+      "body": "World Hepatitis Day: Hepatitis can range from mild and self-limiting to severe and chronic. In some cases, the liver can heal and return to normal function on its own with supportive care. However, chronic hepatitis, particularly viral hepatitis, can lead to more serious complications, such as liver cirrhosis (scarring of the liver), liver failure, and hepatocellular carcinoma (liver cancer).",
+      "link": "https://health.economictimes.indiatimes.com/news/industry/world-hepatitis-day-things-to-know-about-viral-hepatitis/102195951",
+      "img": "/news/001.jpeg"
+    },
+    {
+      "id": 1,
+      "title": "38per cent of Indians have non-alcoholic fatty liver disease, says AIIMS study",
+      "body": "The cause of 'fatty liver' or 'steatohepatitis' is the recent westernisation of our diets which involves increased intake of fast food, lack of healthy fruits and vegetables on the plate, and an unhealthy and sedentary lifestyle, Dr Anoop Saraya, Head of Department of Gastroenterology, said.",
+      "link": "https://health.economictimes.indiatimes.com/news/industry/world-hepatitis-day-things-to-know-about-viral-hepatitis/102195951",
+      "img": "/news/002.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "BCG fails to protect against pulmonary TB in adults, urgent need for better vaccines: Prof. Stefan H.E. Kaufmann",
+      "body": "Novel drug treatment regimens have been developed, but we still need drugs to shorten treatment times and also drugs that can be given orally. Therapy of susceptible TB still needs  three to four drug treatments given over six months and drug-resistant tuberculosis ranks high amongst antimicrobial resistance globally..",
+      "link": "https://health.economictimes.indiatimes.com/news/industry/world-hepatitis-day-things-to-know-about-viral-hepatitis/102195951",
+      "img": "/news/003.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "Pink eye: Adenovirus strain causing surge",
+      "body": "Dr Titiyal added: 'Usually, in some cases of adenovirus, there is a little bit of involvement of the cornea too. But this time, it is targeting only the conjunctiva.No treatment is required. In two weeks, the virus is gone from the surface.",
+      "link": "https://health.economictimes.indiatimes.com/news/industry/world-hepatitis-day-things-to-know-about-viral-hepatitis/102195951",
+      "img": "/news/004.jpeg"
+    }
+  ]
+}

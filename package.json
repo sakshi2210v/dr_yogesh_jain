@@ -1,0 +1,31 @@
+{
+  "name": "doctor",
+  "version": "0.1.0",
+  "homepage": "https://https://bombaygymkhanaserver.com/doctor-main/",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.15",
+    "@heroicons/react": "^2.0.18",
+    "@tailwindcss/forms": "^0.5.3",
+    "autoprefixer": "10.4.14",
+    "clsx": "^1.2.1",
+    "eslint": "8.43.0",
+    "eslint-config-next": "13.4.7",
+    "framer-motion": "^10.15.0",
+    "html-react-parser": "^4.2.0",
+    "next": "13.4.7",
+    "postcss": "8.4.24",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-fast-marquee": "^1.6.0",
+    "slider": "^1.0.4",
+    "swiper": "^9.4.1",
+    "tailwindcss": "3.3.2"
+  }
+}

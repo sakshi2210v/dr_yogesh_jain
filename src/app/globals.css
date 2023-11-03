@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-shadow{
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.06);
+}
+html, body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+body {
+  position: relative;
+}
+.formbg {
+  background: url('../assets/formbg.png');
+}
+.cardshadow{
+  box-shadow: 0px 0px 20.662498474121094px 0px rgba(0, 0, 0, 0.10);
+}
+
+
+/* Styling for the list items */
+.ul-treate li {
+  list-style-type: none;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .ul-treate li {
+    list-style-type: none;
+    margin-bottom: 6px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    display: flex;
+  }
+}
+
+.sidebar{
+  position: absolute;
+  height: 100vh;
+  top:0;
+  background: white;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nav-mobile{
+  font-size: 20px;
+}
+.nav-mobile li {
+  margin: 10px 6px;
+}
+
+.ulitem li {
+  list-style-type: none;
+  margin-bottom: 10px;
+  font-size: 21px;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .ulitem li {
+    list-style-type: none;
+    margin-bottom: 6px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    display: flex;
+  }
+}

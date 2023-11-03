@@ -1,0 +1,49 @@
+[
+    {
+        "id": 5,
+        "name": "Preventive and Social Medicine",
+        "lname": "preventive-and-social-medicine",
+        "link":"/images/002.jpg",
+        "icon":"/icon/icon4.png",
+        "body":"Preventive and social medicine, also known as public health, focuses on keeping people healthy and preventing diseases in the community.<br/><br/> Preventive and social medicine is all about keeping you and your community healthy. It involves taking steps to prevent diseases and promote well-being before they happen, rather than just treating them when they occur. It looks at the bigger picture by considering factors like the environment, lifestyle, and social factors that can affect your health. For example, instead of waiting for you to get sick and then giving you medicine, preventive and social medicine focuses on things like vaccinations to protect you from certain diseases. It also emphasizes healthy habits like eating a balanced diet, exercising regularly, and avoiding harmful substances like tobacco or excessive alcohol.<br/><br/> Another important aspect is identifying and managing risks in the community. This means looking at things like clean water and sanitation, proper waste disposal, and controlling the spread of infections. It also involves promoting health education and awareness so that people can make informed decisions about their health.<br/><br/> By practicing preventive and social medicine, Dr. Yogesh Jain aims to improve the overall health of individuals and communities, reduce the burden of diseases, and enhance the quality of life. It's like building a strong foundation of health for everyone, so we can all live healthier and happier lives.",
+        "desc": " Empowering Healthier Lives Together!",
+        "treatments": [
+          {
+            "name": "Hypertension (high blood pressure)"
+          },
+          {
+            "name": "Diabetes"
+          },
+          {
+            "name": "Asthma"
+          },
+          {
+            "name": "Chronic obstructive pulmonary disease (COPD)"
+          },
+          {
+            "name": "Heart disease"
+          },
+          {
+            "name": "Kidney disease"
+          },
+          {
+            "name": "Thyroid disorders"
+          },
+          {
+            "name": "Rheumatoid arthritis"
+          },
+          {
+            "name": "Osteoporosis"
+          },
+          {
+            "name": "Allergies"
+          },
+          {
+            "name": "Chronic pain management"
+          },
+          {
+            "name": "Obesity"
+          }
+        ]
+      }
+    ]
