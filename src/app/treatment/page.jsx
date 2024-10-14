@@ -15,7 +15,7 @@ const page = () => {
   return (
     <div>
         <Treatment bg={true}/>
-        <Cta/>
+        <Cta/> 
         <Reviews/>
     </div>
   )
