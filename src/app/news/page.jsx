@@ -5,7 +5,17 @@ import Form from "@/components/Form";
 import source from '../../data.json'
 import NewsCards from "@/components/News";
 import Cta from "@/components/Cta";
+
+export const metadata = {
+  title: 'Latest Blogs on Health and Wellness | Dr. Yogesh Jain',
+  icons: {
+    icon: '/logo.jpg',
+  },
+  description: 'Read informative blogs on health, wellness, and lifestyle by Dr. Yogesh Jain. Stay updated with insights and tips for better living. Visit for more details.',
+}
+
 const page = () => {
+
 
   return (
     <div>

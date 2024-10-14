@@ -7,11 +7,11 @@ import Navbar from '@/components/Navbar'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Dr. Yogesh Jain',
+  title: 'Best Internal Medicine Specialist | Dr. Yogesh Jain Clinic',
   icons: {
     icon: '/logo.jpg',
   },
-  description: 'Expert in adult health, offering personalized care for optimal well-being. Trust his vast experience and compassion at his Internal Medicine Practice for a healthier life.  ',
+  description: 'Consult Dr. Yogesh Jain, a leading internal medicine specialist offering expert care for complex medical conditions with personalized treatment plans.',
 }
 
 export default function RootLayout({ children }) {

@@ -17,6 +17,13 @@ import img10 from "@/assets/images/010.JPG";
 import img12 from "@/assets/images/011.JPG";
 import img11 from "@/assets/images/012.jpg";
 
+export const metadata = {
+  title: 'Gallery of Treatments and Achievements | Dr. Yogesh Jain',
+  icons: {
+    icon: '/logo.jpg',
+  },
+  description: 'Visit the gallery to view various treatments and achievements by Dr. Yogesh Jain. Browse through a collection showcasing exceptional patient care and results.',
+}
 
 const page = () => {
   return (
