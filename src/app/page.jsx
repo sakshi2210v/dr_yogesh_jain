@@ -10,7 +10,7 @@ import Gallery from '@/components/Gallery'
 import Hospitals from '@/components/Hospitals'
 import Cta from '@/components/Cta'
 import Info from '@/components/Info'
-import Head from 'next/document'
+import Head from 'next/head'
 import Script from 'next/script'
 export default function Home() {
   return (
