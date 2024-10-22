@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'Best Internal Medicine Specialist | Dr. Yogesh Jain Clinic',
   icons: {
-    icon: '/logo.jpg',
+    icon: '/Dr Yogesh Jain.jpg',
   },
   description: 'Consult Dr. Yogesh Jain, a leading internal medicine specialist offering expert care for complex medical conditions with personalized treatment plans.',
 }

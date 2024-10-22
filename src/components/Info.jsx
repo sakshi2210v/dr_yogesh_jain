@@ -6,7 +6,7 @@ import phone from "@/assets/icons/phone.png";
 import Image from "next/image";
 import { Fragment } from "react";
 import { Tab } from "@headlessui/react";
-import doctor from "@/assets/doctor.png";
+import doctor from "@/assets/Dr Yogesh Jain best physician in mumbai.png";
 import { motion } from "framer-motion";
 import { textVariant2 } from "@/utils/motion";
 import Button from "./Button";

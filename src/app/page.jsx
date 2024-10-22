@@ -16,7 +16,7 @@ export default function Home() {
     <div className=' mx-auto'>
       <Head>
           <title>Yogesh Jain</title>
-          <link rel="icon" href="/logo.jpg" sizes="any" />
+          <link rel="icon" href="/Dr Yogesh Jain.jpg" sizes="any" />
           
       </Head >
       <Hero />

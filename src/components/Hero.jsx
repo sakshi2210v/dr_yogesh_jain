@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import React from "react";
-import doctor from "../assets/doctor.png";
+import doctor from "../assets/Dr Yogesh Jain best physician in mumbai.png";
 import { motion } from "framer-motion";
 import { slideIn, textVariant, textVariant2 } from "@/utils/motion";
 import Button from "./Button";
@@ -65,7 +65,7 @@ const Hero = () => {
         initial="hidden"
         whileInView="show"
       >
-        <Image src={doctor} className="rounded-lg mt-6" />
+        <Image src={doctor} alt="Dr. Yogesh Jain, best physician in mumbai" className="rounded-lg mt-6" />
       </motion.div>
     </div>
     </div>

@@ -9,7 +9,7 @@ import Info from "@/components/Info";
 export const metadata = {
   title: 'Contact Dr. Yogesh Jain for Professional Gallery Insights',
   icons: {
-    icon: '/logo.jpg',
+    icon: '/Dr Yogesh Jain.jpg',
   },
   description: 'Get in touch with Dr. Yogesh Jain to learn more about his gallery and services. Reach out today for inquiries related to your health and wellness needs.',
 }
