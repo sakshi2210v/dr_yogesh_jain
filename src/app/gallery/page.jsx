@@ -16,6 +16,7 @@ import img9 from "@/assets/images/009.jpg";
 import img10 from "@/assets/images/010.JPG";
 import img12 from "@/assets/images/011.JPG";
 import img11 from "@/assets/images/012.jpg";
+import BreadCrumbs from "@/components/Breadcrumbs";
 
 export const metadata = {
   title: 'Gallery of Treatments and Achievements | Dr. Yogesh Jain',
@@ -26,8 +27,13 @@ export const metadata = {
 }
 
 const page = () => {
+  const breadcrumbs =[
+    {name: "Home", url: "/"},
+    {name: "Gallery", url:"/gallery"}
+  ]
   return (
     <div>
+ <BreadCrumbs breadCrumbs={breadcrumbs} />
       <div className=" mx-auto m-4 md:p-0 p-2">
       <div className="bg-green-100 shadow-sm my-8  border border-green-300 rounded-full mx-auto px-4 py-2 max-w-[240px]">
           <p className="text-lg  font-semibold text-green-600 text-center">

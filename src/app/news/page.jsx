@@ -5,6 +5,7 @@ import Form from "@/components/Form";
 import source from '../../data.json'
 import NewsCards from "@/components/News";
 import Cta from "@/components/Cta";
+import BreadCrumbs from "@/components/Breadcrumbs";
 
 export const metadata = {
   title: 'Latest Blogs on Health and Wellness | Dr. Yogesh Jain',
@@ -15,10 +16,14 @@ export const metadata = {
 }
 
 const page = () => {
-
+  const breadcrumbs =[
+    {name: "Home", url: "/"},
+    {name: "News", url:"/news"}
+  ]
 
   return (
     <div>
+       <BreadCrumbs breadCrumbs={breadcrumbs} />
       <div className="bg-green-100 shadow-sm my-8  border border-green-300 rounded-full mx-auto px-4 py-2 max-w-[240px]">
           <p className="text-lg  font-semibold text-green-600 text-center">
             News
