@@ -17,6 +17,7 @@ import img10 from "@/assets/images/010.JPG";
 import img12 from "@/assets/images/011.JPG";
 import img11 from "@/assets/images/012.jpg";
 import BreadCrumbs from "@/components/Breadcrumbs";
+import Head from "next/head";
 
 export const metadata = {
   title: 'Gallery of Treatments and Achievements | Dr. Yogesh Jain',
@@ -31,7 +32,26 @@ const page = () => {
     {name: "Home", url: "/"},
     {name: "Gallery", url:"/gallery"}
   ]
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": breadcrumbs.map((breadcrumb, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "name": breadcrumb.name,
+      "item": `${process.env.NEXT_PUBLIC_SITE_URL}${breadcrumb.url}` // Ensure this is your website's base URL
+    }))
+  };
+
   return (
+    <>
+    <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+        />
+      </Head>
     <div>
  <BreadCrumbs breadCrumbs={breadcrumbs} />
       <div className=" mx-auto m-4 md:p-0 p-2">
@@ -62,6 +82,7 @@ const page = () => {
       <Cta />
       <Reviews />
     </div>
+    </>
   );
 };
 
