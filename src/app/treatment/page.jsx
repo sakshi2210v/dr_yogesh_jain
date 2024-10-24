@@ -2,7 +2,6 @@ import BreadCrumbs from '@/components/Breadcrumbs'
 import Cta from '@/components/Cta'
 import Reviews from '@/components/Reviews'
 import Treatment from '@/components/Treatment'
-import { BreadcrumbItem, Breadcrumbs } from '@nextui-org/breadcrumbs'
 import Head from 'next/head'
 import React from 'react'
 
