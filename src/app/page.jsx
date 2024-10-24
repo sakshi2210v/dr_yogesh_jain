@@ -19,49 +19,7 @@ export default function Home() {
         <title>Yogesh Jain</title>
         <link rel="icon" href="/Dr Yogesh Jain.jpg" sizes="any" />
 
-        {/* Organization Schema - Medical Organization */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "MedicalOrganization",
-              "name": "Dr. Yogesh Jain",
-              "url": "https://www.dryogeshjain.in/",
-              "logo": "https://www.dryogeshjain.in/logo.png",
-              "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "090048 03606",
-                "contactType": "customer service",
-                "areaServed": "IN",
-                "availableLanguage": "en",
-              },
-            }),
-          }}
-        />
-
-        {/* Local Business Schema - Physician */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Physician",
-              "name": "Dr. Yogesh Jain",
-              "image": "https://www.dryogeshjain.in/logo.png",
-              "@id": "",
-              "url": "https://www.dryogeshjain.in/",
-              "telephone": "090048 03606",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "Ganapatrao Kadam Marg",
-                "addressLocality": "Mumbai",
-                "postalCode": "400013",
-                "addressCountry": "IN",
-              },
-            }),
-          }}
-        />
+        
       </Head>
 
       <Hero />
