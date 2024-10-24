@@ -16,18 +16,44 @@ import img9 from "@/assets/images/009.jpg";
 import img10 from "@/assets/images/010.JPG";
 import img12 from "@/assets/images/011.JPG";
 import img11 from "@/assets/images/012.jpg";
+import BreadCrumbs from "@/components/Breadcrumbs";
+import Head from "next/head";
 
 export const metadata = {
   title: 'Gallery of Treatments and Achievements | Dr. Yogesh Jain',
   icons: {
-    icon: '/logo.jpg',
+    icon: '/Dr Yogesh Jain.jpg',
   },
   description: 'Visit the gallery to view various treatments and achievements by Dr. Yogesh Jain. Browse through a collection showcasing exceptional patient care and results.',
 }
 
 const page = () => {
+  const breadcrumbs =[
+    {name: "Home", url: "/"},
+    {name: "Gallery", url:"/gallery"}
+  ]
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": breadcrumbs.map((breadcrumb, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "name": breadcrumb.name,
+      "item": `${process.env.NEXT_PUBLIC_SITE_URL}${breadcrumb.url}` // Ensure this is your website's base URL
+    }))
+  };
+
   return (
+    <>
+    <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+        />
+      </Head>
     <div>
+ <BreadCrumbs breadCrumbs={breadcrumbs} />
       <div className=" mx-auto m-4 md:p-0 p-2">
       <div className="bg-green-100 shadow-sm my-8  border border-green-300 rounded-full mx-auto px-4 py-2 max-w-[240px]">
           <p className="text-lg  font-semibold text-green-600 text-center">
@@ -56,6 +82,7 @@ const page = () => {
       <Cta />
       <Reviews />
     </div>
+    </>
   );
 };
 

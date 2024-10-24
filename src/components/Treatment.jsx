@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import React, { useEffect } from "react";
-import icon from "@/assets/icons/icon.png";
+import icon from "@/assets/icons/First aid medical kit.png";
 import arrow from "@/assets/icons/arrow.png";
 import data from "@/data.json";
 import Link from "next/link";
@@ -40,7 +40,7 @@ const Treatment = ({ bg }) => {
               className="bg-[#f5f5f5] hover:bg-white max-w-md p-8 rounded-lg "
               key={item.id}
             >
-              <img src={item.icon} alt="icon" className="w-[48px]" />
+              <img src={item.icon} alt={item.alt} className="w-[48px]" />
               <p className="md:text-xl text-lg my-4">{item.name}</p>
               <p className="text-lg md:text-md text-gray-600">{item.desc}</p>
               <Link

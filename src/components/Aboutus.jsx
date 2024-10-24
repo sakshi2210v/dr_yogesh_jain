@@ -2,7 +2,7 @@
 import React from "react";
 import { Fragment } from "react";
 import { Tab } from "@headlessui/react";
-import doctor from "@/assets/doctor.png";
+import doctor from "@/assets/Dr Yogesh Jain best physician in mumbai.png";
 import Image from "next/image";
 import { slideIn } from "@/utils/motion";
 import { motion } from "framer-motion";
@@ -97,7 +97,7 @@ const Aboutus = () => {
                 whileInView={"show"}
                 variants={slideIn("left", 2, 0)}
               >
-                <Image src={doctor} width="500" className="my-10" />
+                <Image src={doctor} alt="Dr. Yogesh Jain, best physician in mumbai" width="500" className="my-10" />
                 <p className="text-primary text-xl mt-2">Dr. Yogesh Jain</p>
                 <p className="text-lg text-secondary">
                 MBBS, Diplomate of National Board (DNB), MD (Internal Medicine)
