@@ -33,25 +33,25 @@ const page = () => {
     {name: "Gallery", url:"/gallery"}
   ]
 
-  const breadcrumbSchema = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": breadcrumbs.map((breadcrumb, index) => ({
-      "@type": "ListItem",
-      "position": index + 1,
-      "name": breadcrumb.name,
-      "item": `${process.env.NEXT_PUBLIC_SITE_URL}${breadcrumb.url}` // Ensure this is your website's base URL
-    }))
-  };
+  // const breadcrumbSchema = {
+  //   "@context": "https://schema.org",
+  //   "@type": "BreadcrumbList",
+  //   "itemListElement": breadcrumbs.map((breadcrumb, index) => ({
+  //     "@type": "ListItem",
+  //     "position": index + 1,
+  //     "name": breadcrumb.name,
+  //     "item": `${process.env.NEXT_PUBLIC_SITE_URL}${breadcrumb.url}` // Ensure this is your website's base URL
+  //   }))
+  // };
 
   return (
     <>
-    <Head>
+    {/* <Head>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
         />
-      </Head>
+      </Head> */}
     <div>
  <BreadCrumbs breadCrumbs={breadcrumbs} />
       <div className=" mx-auto m-4 md:p-0 p-2">
