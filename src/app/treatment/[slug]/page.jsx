@@ -62,13 +62,13 @@ const Page = () => {
   }, [searchParams, pathname]);
 
   // Only create breadcrumbs when data is available
-  const breadcrumbs = data
-    ? [
-        { name: "Home", url: "/" },
-        { name: "Treatment", url: "/treatment" },
-        { name: data.name, url: `/treatment/${data.lname}` }
-      ]
-    : [];
+  // const breadcrumbs = data
+  //   ? [
+  //       { name: "Home", url: "/" },
+  //       { name: "Treatment", url: "/treatment" },
+  //       { name: data.name, url: `/treatment/${data.lname}` }
+  //     ]
+  //   : [];
 
     // const breadcrumbSchema = {
     //   "@context": "https://schema.org",
@@ -90,7 +90,7 @@ const Page = () => {
         />
       </Head> */}
       {/* Only render breadcrumbs if data exists */}
-      {data && <BreadCrumbs breadCrumbs={breadcrumbs} />}
+      {/* {data && <BreadCrumbs breadCrumbs={breadcrumbs} />} */}
       {data ? (
         <div className="flex justify-center flex-col items-center my-10">
           <p className="text-3xl font-semibold text-green-700">{data.name}</p>
