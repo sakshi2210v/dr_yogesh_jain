@@ -16,10 +16,10 @@ export const metadata = {
 
 const page = () => {
 
-const breadcrumbs =[
-  {name: "Home", url: "/"},
-  {name: "Treatment", url:"/treatment"}
-]
+// const breadcrumbs =[
+//   {name: "Home", url: "/"},
+//   {name: "Treatment", url:"/treatment"}
+// ]
 
 // const breadcrumbSchema = {
 //   "@context": "https://schema.org",
@@ -41,7 +41,7 @@ const breadcrumbs =[
         />
       </Head> */}
     <div>
-      <BreadCrumbs breadCrumbs={breadcrumbs} />
+      {/* <BreadCrumbs breadCrumbs={breadcrumbs} /> */}
         <Treatment bg={true}/>
         <Cta/> 
         <Reviews/>
