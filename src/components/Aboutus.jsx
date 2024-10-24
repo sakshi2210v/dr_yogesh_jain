@@ -116,12 +116,7 @@ const Aboutus = () => {
                 </p>
 
                 <p className="mt-10 md:text-lg text-gray-600">
-                  Dr. Yogesh Jain is a compassionate Internal Medicine Physician
-                  with extensive experience in treating various illnesses. He
-                  specializes in diabetic, cardiometabolic, and infectious
-                  diseases, particularly in patients with underlying conditions.
-                  Dr. Yogesh takes a holistic approach to patient care,
-                  considering physical, emotional, and socio-economic aspects.
+                Dr. Yogesh Jain is a compassionate Internal Medicine Physician, recognized as one of the best physician in Mumbai, with extensive experience in treating various illnesses. He specializes in diabetic, cardiometabolic, and infectious diseases, particularly in patients with underlying conditions. Dr. Yogesh takes a holistic approach to patient care, considering physical, emotional, and socio-economic aspects.
                   <br />
                   <br />
                   He is dedicated to delivering high-quality medical care and
