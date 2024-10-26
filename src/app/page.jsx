@@ -19,7 +19,7 @@ export default function Home() {
         <title>Yogesh Jain</title>
         <link rel="icon" href="/Dr Yogesh Jain.jpg" sizes="any" />
 
-        {/* Organization Schema - Medical Organization
+        {/* Organization Schema - Medical Organization */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -40,7 +40,7 @@ export default function Home() {
           }}
         />
 
-        {/* Local Business Schema - Physician 
+        {/* {/* Local Business Schema - Physician  */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -61,7 +61,7 @@ export default function Home() {
               },
             }),
           }}
-        /> */}
+        />
       </Head>
 
       <Hero />
