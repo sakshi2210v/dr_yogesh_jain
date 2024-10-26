@@ -62,35 +62,35 @@ const Page = () => {
   }, [searchParams, pathname]);
 
   // Only create breadcrumbs when data is available
-  // const breadcrumbs = data
-  //   ? [
-  //       { name: "Home", url: "/" },
-  //       { name: "Treatment", url: "/treatment" },
-  //       { name: data.name, url: `/treatment/${data.lname}` }
-  //     ]
-  //   : [];
+  const breadcrumbs = data
+    ? [
+        { name: "Home", url: "/" },
+        { name: "Treatment", url: "/treatment" },
+        { name: data.name, url: `/treatment/${data.lname}` }
+      ]
+    : [];
 
-    // const breadcrumbSchema = {
-    //   "@context": "https://schema.org",
-    //   "@type": "BreadcrumbList",
-    //   "itemListElement": breadcrumbs.map((breadcrumb, index) => ({
-    //     "@type": "ListItem",
-    //     "position": index + 1,
-    //     "name": breadcrumb.name,
-    //     "item": `${process.env.NEXT_PUBLIC_SITE_URL}${breadcrumb.url}` // Ensure this is your website's base URL
-    //   }))
-    // };
+    const breadcrumbSchema = {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": breadcrumbs.map((breadcrumb, index) => ({
+        "@type": "ListItem",
+        "position": index + 1,
+        "name": breadcrumb.name,
+        "item": `${process.env.NEXT_PUBLIC_SITE_URL}${breadcrumb.url}` // Ensure this is your website's base URL
+      }))
+    };
 
   return (
     <>
-    {/* <Head>
+    <Head>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
         />
-      </Head> */}
+      </Head>
       {/* Only render breadcrumbs if data exists */}
-      {/* {data && <BreadCrumbs breadCrumbs={breadcrumbs} />} */}
+      {data && <BreadCrumbs breadCrumbs={breadcrumbs} />}
       {data ? (
         <div className="flex justify-center flex-col items-center my-10">
           <p className="text-3xl font-semibold text-green-700">{data.name}</p>
