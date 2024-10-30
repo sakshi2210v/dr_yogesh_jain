@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'Best Internal Medicine Specialist | Dr. Yogesh Jain Clinic',
   icons: {
-    icon: '/Dr Yogesh Jain.jpg',
+    icon: '/logo.jpg',
   },
   description: 'Consult Dr. Yogesh Jain, a leading internal medicine specialist offering expert care for complex medical conditions with personalized treatment plans.',
 }
@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-      {/* <Script
+      <Script
   strategy="lazyOnload"
   src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS}`}
 />
@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
       page_path: window.location.pathname,
     });
         `}
-</Script> */}
+</Script>
 <meta name="google-site-verification" content="XZCDXa84QDpEh8vXIcZjmlkAxtHHl2xDhmTnddUZGfw" />
       </head>
       <body className={`${inter.className} text-dark`}>

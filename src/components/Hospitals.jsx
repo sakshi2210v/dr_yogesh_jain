@@ -1,10 +1,10 @@
 "use client"
 import React from "react";
-import logo from "@/assets/logo/Masina Hospital.jpg";
-import logo1 from "@/assets/logo/Symbiosis Hospital.png";
-import logo2 from "@/assets/logo/Wockhardt Hospital.png";
+import logo from "@/assets/logo/logo1.jpg";
+import logo1 from "@/assets/logo/logo2.png";
+import logo2 from "@/assets/logo/logo3.png";
 import logo3 from "@/assets/logo/logo4.jpeg";
-import logo4 from "@/assets/logo/Gleneagles Hospital.png";
+import logo4 from "@/assets/logo/logo5.png";
 
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
@@ -24,22 +24,18 @@ const Hospitals = () => {
           <Image
             src={logo}
             className="max-w-[260px] h-[100px] aspect-[3/2] object-contain mx-20"
-            alt="Masina Hospital Logo"
           />
           <Image
             src={logo2}
             className="max-w-[400px] h-[80px] aspect-[3/2] object-contain"
-            alt="Symbiosis Hospital Logo"
           />
           <Image
             src={logo3}
             className="max-w-[400px] h-[80px] aspect-[3/2] object-contain"
-            alt="Wockhardt Hospital Logo"
           />
           <Image
             src={logo4}
             className="max-w-[400px] h-[80px] aspect-[3/2] object-contain"
-            alt="Gleneagles Hospital Logo"
           />
         </Marquee>
        </div>

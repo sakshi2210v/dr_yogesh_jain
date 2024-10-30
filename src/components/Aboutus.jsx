@@ -2,7 +2,7 @@
 import React from "react";
 import { Fragment } from "react";
 import { Tab } from "@headlessui/react";
-import doctor from "@/assets/Dr Yogesh Jain best physician in mumbai.png";
+import doctor from "@/assets/doctor.png";
 import Image from "next/image";
 import { slideIn } from "@/utils/motion";
 import { motion } from "framer-motion";
@@ -97,7 +97,7 @@ const Aboutus = () => {
                 whileInView={"show"}
                 variants={slideIn("left", 2, 0)}
               >
-                <Image src={doctor} alt="Dr. Yogesh Jain, best physician in mumbai" width="500" className="my-10" />
+                <Image src={doctor} width="500" className="my-10" />
                 <p className="text-primary text-xl mt-2">Dr. Yogesh Jain</p>
                 <p className="text-lg text-secondary">
                 MBBS, Diplomate of National Board (DNB), MD (Internal Medicine)
@@ -116,7 +116,12 @@ const Aboutus = () => {
                 </p>
 
                 <p className="mt-10 md:text-lg text-gray-600">
-                Dr. Yogesh Jain is a compassionate Internal Medicine Physician, recognized as one of the best physician in Mumbai, with extensive experience in treating various illnesses. He specializes in diabetic, cardiometabolic, and infectious diseases, particularly in patients with underlying conditions. Dr. Yogesh takes a holistic approach to patient care, considering physical, emotional, and socio-economic aspects.
+                  Dr. Yogesh Jain is a compassionate Internal Medicine Physician
+                  with extensive experience in treating various illnesses. He
+                  specializes in diabetic, cardiometabolic, and infectious
+                  diseases, particularly in patients with underlying conditions.
+                  Dr. Yogesh takes a holistic approach to patient care,
+                  considering physical, emotional, and socio-economic aspects.
                   <br />
                   <br />
                   He is dedicated to delivering high-quality medical care and
