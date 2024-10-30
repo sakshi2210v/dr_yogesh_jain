@@ -18,7 +18,7 @@ const BreadCrumbs = ({ breadCrumbs }) => {
                 <i className="ml-3 text-gray-400 fa fa-chevron-right"></i>
               )}
             </li>
-          ))}
+          ))} 
         </ol>
       </div>
     </section>
