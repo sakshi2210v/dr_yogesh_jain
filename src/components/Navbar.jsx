@@ -28,7 +28,7 @@ const Navbar = () => {
         className="text-2xl font-semibold text-blue-900 cursor-pointer"
         href="/"
       >
-        <img src="/Dr Yogesh Jain.png" alt="" srcset="" className="w-16 h-16" />
+        <img src="/Dr Yogesh Jain.png" alt=""  className="w-16 h-16" />
       </Link>
       <ul
         className="z-[200] shadow-sm border border-gray-300 rounded-full md:px-4 py-3 md:flex hidden fixed top-[24px] bg-white mx-auto left-[50%]"

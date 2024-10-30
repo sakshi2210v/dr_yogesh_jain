@@ -50,7 +50,6 @@ const trustedhospital = [
     name: "Siddhivinayak Hospital & ICCU (Prabhadevi) ",
     number: "022-24318488/ 24318486",
   },
- 
 ];
 const Info = () => {
   return (
@@ -59,9 +58,7 @@ const Info = () => {
         <div className="md:w-[50%] w-full md:h-[500px] h-full ">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.486300928752!2d72.8208395104121!3d18.998281182116074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf4550fb7117%3A0x1f27b4bcdecfe9cb!2sDr%20Yogesh%20M.Jain!5e0!3m2!1sen!2sin!4v1691318947091!5m2!1sen!2sin"
-            frameborder="0"
             className="md:h-[400px] w-full h-[300px] border-radius-lg"
-            referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
 
           <div className="">
@@ -75,7 +72,7 @@ const Info = () => {
             </div>
             <div className="flex my-2 ">
               <div className="w-[10%]">
-              <MapPinIcon width={30} color="#006BB6" className="mr-3" />
+                <MapPinIcon width={30} color="#006BB6" className="mr-3" />
               </div>
               <p className="text-table">
                 Poonawala Building No - 3, Ganpatrao Kadam Marg, Lower Parel,
@@ -85,7 +82,9 @@ const Info = () => {
             </div>
             <div className="flex my-2">
               <ClockIcon width={30} color="#006BB6" className="mr-3" />
-              <p className="text-table">Monday to Saturday - 7:30 pm to 11 pm</p>
+              <p className="text-table">
+                Monday to Saturday - 7:30 pm to 11 pm
+              </p>
             </div>
             <div className="flex my-2">
               <PhoneIcon width={30} color="#006BB6" className="mr-3" />
@@ -112,28 +111,31 @@ const Info = () => {
             </span>
           </motion.p>
           <div className="grid md:grid-cols-2  gap-[6px] gap-x-3 mt-10">
-          {trustedhospital.map((e) => (
-              <div key={e.name} className="md:max-w-full mx-auto w-[300px]  border-2 border-primary  p-4 rounded-lg">
+            {trustedhospital.map((e) => (
+              <div
+                key={e.name}
+                className="md:max-w-full mx-auto w-[300px]  border-2 border-primary  p-4 rounded-lg"
+              >
                 <div className="flex">
                   <div className="w-[20%]">
-                  <BuildingOffice2Icon
-                    width={30}
-                    className="mr-3 "
-                    color="#16803C"
-                  />
+                    <BuildingOffice2Icon
+                      width={30}
+                      className="mr-3 "
+                      color="#16803C"
+                    />
                   </div>
                   <p className="text-black md:text-sm text-md font-semibold">
-                   {e.name}
+                    {e.name}
                   </p>
                 </div>
                 <div className="flex mt-4">
-                <div className="w-[20%]">
-                  <PhoneIcon width={30} className="mr-3" color="#16803C" />
+                  <div className="w-[20%]">
+                    <PhoneIcon width={30} className="mr-3" color="#16803C" />
                   </div>
                   <p className="text-table text-sm">{e.number}</p>
                 </div>
               </div>
-          ))}
+            ))}
           </div>
           <div className="flex justify-center my-8">
             <Button />
