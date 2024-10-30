@@ -29,10 +29,10 @@ export const metadata = {
 };
 
 const page = () => {
-  const breadcrumbs = [
-    { name: "Home", url: "/" },
-    { name: "Gallery", url: "/gallery" },
-  ];
+  // const breadcrumbs = [
+  //   { name: "Home", url: "/" },
+  //   { name: "Gallery", url: "/gallery" },
+  // ];
 
   // const breadcrumbSchema = {
   //   "@context": "https://schema.org",
@@ -47,14 +47,14 @@ const page = () => {
 
   return (
     <>
-      <Head>
+      {/* <Head>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
         />
-      </Head>
+      </Head> */}
       <div>
-        <BreadCrumbs breadCrumbs={breadcrumbs} />
+        {/* <BreadCrumbs breadCrumbs={breadcrumbs} /> */}
         <div className=" mx-auto m-4 md:p-0 p-2">
           <div className="bg-green-100 shadow-sm my-8  border border-green-300 rounded-full mx-auto px-4 py-2 max-w-[240px]">
             <p className="text-lg  font-semibold text-green-600 text-center">
