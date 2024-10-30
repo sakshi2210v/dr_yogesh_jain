@@ -13,8 +13,8 @@ import img6 from "@/assets/images/006.jpg";
 import img7 from "@/assets/images/007.jpg";
 import img8 from "@/assets/images/008.jpg";
 import img9 from "@/assets/images/009.jpg";
-import img10 from "@/assets/images/010.JPG";
-import img12 from "@/assets/images/011.JPG";
+import img10 from "@/assets/images/010.jpg";
+import img12 from "@/assets/images/011.jpg";
 import img11 from "@/assets/images/012.jpg";
 
 export const metadata = {
