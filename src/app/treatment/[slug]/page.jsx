@@ -7,6 +7,7 @@ import parse from "html-react-parser";
 import { useRouter } from "next/navigation";
 import Button from "@/components/Button";
 import BreadCrumbs from "@/components/Breadcrumbs";
+import Head from "next/head";
 
 const Icon = () => {
   return (
@@ -74,8 +75,25 @@ const Page = ({ children }) => {
       ]
     : [];
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: breadcrumbs.map((breadcrumb, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: breadcrumb.name,
+      item: `${process.env.NEXT_PUBLIC_SITE_URL}${breadcrumb.url}`, // Ensure this is your website's base URL
+    })),
+  };
+
   return (
     <>
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+        />
+      </Head>
       {/* Only render breadcrumbs if data exists */}
       {data && <BreadCrumbs breadCrumbs={breadcrumbs} />}
       {data ? (
