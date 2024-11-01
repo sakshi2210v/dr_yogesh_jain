@@ -100,7 +100,8 @@ const Aboutus = () => {
                 <Image src={doctor} width="500" className="my-10" />
                 <p className="text-primary text-xl mt-2">Dr. Yogesh Jain</p>
                 <p className="text-lg text-secondary">
-                MBBS, Diplomate of National Board (DNB), MD (Internal Medicine)
+                  MBBS, Diplomate of National Board (DNB), MD (Internal
+                  Medicine)
                 </p>
               </motion.div>
               <motion.div
@@ -116,7 +117,8 @@ const Aboutus = () => {
                 </p>
 
                 <p className="mt-10 md:text-lg text-gray-600">
-                  Dr. Yogesh Jain is a compassionate Internal Medicine Physician
+                  Dr. Yogesh Jain is a compassionate Internal Medicine
+                  Physician, recognized as one of the best physician in Mumbai,
                   with extensive experience in treating various illnesses. He
                   specializes in diabetic, cardiometabolic, and infectious
                   diseases, particularly in patients with underlying conditions.
@@ -144,7 +146,8 @@ const Aboutus = () => {
                 <Image src={doctor} width="500" />
                 <p className="text-primary text-xl mt-2">Dr. Yogesh Jain</p>
                 <p className="text-lg text-secondary">
-                MBBS, Diplomate of National Board (DNB), MD (Internal Medicine)
+                  MBBS, Diplomate of National Board (DNB), MD (Internal
+                  Medicine)
                 </p>
               </motion.div>
               <motion.div
@@ -153,10 +156,10 @@ const Aboutus = () => {
                 variants={slideIn("right", 2, 0)}
                 className="md:max-w-[50%] md:px-8  py-10"
               >
-                  <div className="flex  flex-wrap justify-center items-center md:mt-20">
-                {data?.treatments?.map((item) => (
-                  <TreatCard data={item} key={item.id}/>
-                ))}
+                <div className="flex  flex-wrap justify-center items-center md:mt-20">
+                  {data?.treatments?.map((item) => (
+                    <TreatCard data={item} key={item.id} />
+                  ))}
                 </div>
                 {/* <ul className="ulitem">
 
@@ -234,7 +237,8 @@ const Aboutus = () => {
                 <Image src={doctor} width="500" />
                 <p className="text-primary text-xl mt-2">Dr. Yogesh Jain</p>
                 <p className="text-lg text-secondary">
-                MBBS, Diplomate of National Board (DNB), MD (Internal Medicine)
+                  MBBS, Diplomate of National Board (DNB), MD (Internal
+                  Medicine)
                 </p>
               </motion.div>
               <motion.div
