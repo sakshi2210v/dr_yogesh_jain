@@ -80,7 +80,7 @@ const Aboutus = () => {
                 whileInView={"show"}
                 variants={slideIn("left", 2, 0)}
               >
-                <Image src={doctor} width="500" className="my-10" />
+                <Image src={doctor} width="500" alt="" className="my-10" />
                 <p className="text-primary text-xl mt-2">Dr. Yogesh Jain</p>
                 <p className="text-lg text-secondary">
                   MBBS, Diplomate of National Board (DNB), MD (Internal
@@ -126,7 +126,7 @@ const Aboutus = () => {
                 whileInView={"show"}
                 variants={slideIn("left", 2, 0)}
               >
-                <Image src={doctor} width="500" />
+                <Image src={doctor} alt="" width="500" />
                 <p className="text-primary text-xl mt-2">Dr. Yogesh Jain</p>
                 <p className="text-lg text-secondary">
                   MBBS, Diplomate of National Board (DNB), MD (Internal
@@ -217,7 +217,7 @@ const Aboutus = () => {
                 whileInView={"show"}
                 variants={slideIn("left", 2, 0)}
               >
-                <Image src={doctor} width="500" />
+                <Image src={doctor} alt="" width="500" />
                 <p className="text-primary text-xl mt-2">Dr. Yogesh Jain</p>
                 <p className="text-lg text-secondary">
                   MBBS, Diplomate of National Board (DNB), MD (Internal

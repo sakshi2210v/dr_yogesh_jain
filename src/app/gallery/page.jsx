@@ -67,18 +67,18 @@ const page = () => {
           </p>
 
           <div className="  mb-12 mt-12 grid md:grid-cols-4 gap-[20px] mx-auto md:max-w-7xl max-w-6xl ">
-            <Image src={img1} className="mx-auto rounded-lg " />
-            <Image src={img2} className="mx-auto rounded-lg " />
-            <Image src={img3} className="mx-auto rounded-lg " />
-            <Image src={img4} className="mx-auto rounded-lg " />
-            <Image src={img5} className="mx-auto rounded-lg " />
-            <Image src={img6} className="mx-auto rounded-lg " />
-            <Image src={img7} className="mx-auto rounded-lg " />
-            <Image src={img8} className="mx-auto rounded-lg " />
-            <Image src={img9} className="mx-auto rounded-lg " />
-            <Image src={img10} className="mx-auto rounded-lg " />
-            <Image src={img11} className="mx-auto rounded-lg " />
-            <Image src={img12} className="mx-auto rounded-lg " />
+            <Image src={img1} alt="" className="mx-auto rounded-lg " />
+            <Image src={img2} alt="" className="mx-auto rounded-lg " />
+            <Image src={img3} alt="" className="mx-auto rounded-lg " />
+            <Image src={img4} alt="" className="mx-auto rounded-lg " />
+            <Image src={img5} alt="" className="mx-auto rounded-lg " />
+            <Image src={img6} alt="" className="mx-auto rounded-lg " />
+            <Image src={img7} alt="" className="mx-auto rounded-lg " />
+            <Image src={img8} alt="" className="mx-auto rounded-lg " />
+            <Image src={img9} alt="" className="mx-auto rounded-lg " />
+            <Image src={img10} alt="" className="mx-auto rounded-lg " />
+            <Image src={img11} alt="" className="mx-auto rounded-lg " />
+            <Image src={img12} alt="" className="mx-auto rounded-lg " />
           </div>
         </div>
         <Cta />
