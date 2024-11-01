@@ -16,20 +16,28 @@ import img9 from "@/assets/images/009.jpg";
 import img10 from "@/assets/images/010.jpg";
 import img12 from "@/assets/images/011.jpg";
 import img11 from "@/assets/images/012.jpg";
+import BreadCrumbs from "@/components/Breadcrumbs";
 
 export const metadata = {
-  title: 'Gallery of Treatments and Achievements | Dr. Yogesh Jain',
+  title: "Gallery of Treatments and Achievements | Dr. Yogesh Jain",
   icons: {
-    icon: '/logo.jpg',
+    icon: "/logo.jpg",
   },
-  description: 'Visit the gallery to view various treatments and achievements by Dr. Yogesh Jain. Browse through a collection showcasing exceptional patient care and results.',
-}
+  description:
+    "Visit the gallery to view various treatments and achievements by Dr. Yogesh Jain. Browse through a collection showcasing exceptional patient care and results.",
+};
 
 const page = () => {
+  const breadcrumbs = [
+    { name: "Home", url: "/" },
+    { name: "Gallery", url: "/gallery" },
+  ];
+
   return (
     <div>
+      <BreadCrumbs breadCrumbs={breadcrumbs} />
       <div className=" mx-auto m-4 md:p-0 p-2">
-      <div className="bg-green-100 shadow-sm my-8  border border-green-300 rounded-full mx-auto px-4 py-2 max-w-[240px]">
+        <div className="bg-green-100 shadow-sm my-8  border border-green-300 rounded-full mx-auto px-4 py-2 max-w-[240px]">
           <p className="text-lg  font-semibold text-green-600 text-center">
             Gallery
           </p>
@@ -39,18 +47,18 @@ const page = () => {
         </p>
 
         <div className="  mb-12 mt-12 grid md:grid-cols-4 gap-[20px] mx-auto md:max-w-7xl max-w-6xl ">
-          <Image src={img1}  className="mx-auto rounded-lg " />
-          <Image src={img2}  className="mx-auto rounded-lg " /> 
-          <Image src={img3}  className="mx-auto rounded-lg " />
-          <Image src={img4}  className="mx-auto rounded-lg " />
-          <Image src={img5}  className="mx-auto rounded-lg " />
-          <Image src={img6}  className="mx-auto rounded-lg " />
-          <Image src={img7}  className="mx-auto rounded-lg " />
-          <Image src={img8}  className="mx-auto rounded-lg " />
-          <Image src={img9}  className="mx-auto rounded-lg " />
-          <Image src={img10}  className="mx-auto rounded-lg " />
-          <Image src={img11}  className="mx-auto rounded-lg " />
-          <Image src={img12}  className="mx-auto rounded-lg " />
+          <Image src={img1} className="mx-auto rounded-lg " />
+          <Image src={img2} className="mx-auto rounded-lg " />
+          <Image src={img3} className="mx-auto rounded-lg " />
+          <Image src={img4} className="mx-auto rounded-lg " />
+          <Image src={img5} className="mx-auto rounded-lg " />
+          <Image src={img6} className="mx-auto rounded-lg " />
+          <Image src={img7} className="mx-auto rounded-lg " />
+          <Image src={img8} className="mx-auto rounded-lg " />
+          <Image src={img9} className="mx-auto rounded-lg " />
+          <Image src={img10} className="mx-auto rounded-lg " />
+          <Image src={img11} className="mx-auto rounded-lg " />
+          <Image src={img12} className="mx-auto rounded-lg " />
         </div>
       </div>
       <Cta />
