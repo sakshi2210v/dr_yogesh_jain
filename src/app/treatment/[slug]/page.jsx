@@ -104,6 +104,7 @@ const Page = ({ children }) => {
             <div className="md:w-1/2 border-r-2 border-grey-100 px-6 w-full">
               <img
                 src={data.link}
+                alt={data.alt}
                 className="rounded-xl min-h-[300px] w-full mb-10"
               />
               <p>{data.body ? parse(data.body) : null}</p>
