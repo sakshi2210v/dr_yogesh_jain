@@ -6,31 +6,14 @@ import doctor from "@/assets/doctor.png";
 import Image from "next/image";
 import { slideIn } from "@/utils/motion";
 import { motion } from "framer-motion";
-import doc from '@/assets/icons/doc.png'
+import doc from "@/assets/icons/doc.png";
 import data from "@/data.json";
-import { AcademicCapIcon, ChartBarIcon, ChartPieIcon, CursorArrowRippleIcon } from "@heroicons/react/20/solid";
+import {
+  AcademicCapIcon,
+  CursorArrowRippleIcon,
+} from "@heroicons/react/20/solid";
 import TreatCard from "./TreatCard";
-const Tick = () => {
-  return (
-    <svg
-      width="32"
-      height="32"
-      viewBox="0 0 32 32"
-      fill="none"
-      className="mr-3 w-[32px]"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <circle cx="16" cy="16" r="15.6" stroke="#12AC49" stroke-width="0.8" />
-      <path
-        d="M9.41406 17.4126L12.2353 21.1743L22.5801 10.8296"
-        stroke="#12AC49"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-    </svg>
-  );
-};
+
 const Aboutus = () => {
   return (
     <div id="aboutus" className="max-w-7xl px-3 py-12 md:px-6 lg:px-8 mx-auto">
