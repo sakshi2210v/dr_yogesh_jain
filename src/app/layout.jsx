@@ -8,12 +8,13 @@ import Script from 'next/script'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Best Internal Medicine Specialist | Dr. Yogesh Jain Clinic',
+  title: "Best Internal Medicine Doctor In Mumbai | Dr. Yogesh Jain Clinic",
   icons: {
-    icon: '/logo.jpg',
+    icon: "/logo.jpg",
   },
-  description: 'Consult Dr. Yogesh Jain, a leading internal medicine specialist offering expert care for complex medical conditions with personalized treatment plans.',
-}
+  description:
+    "Consult Dr. Yogesh Jain, best internal medicine doctor in mumbai offering expert care for complex medical conditions with personalized treatment plans.",
+};
 
 export default function RootLayout({ children }) {
   return (

@@ -18,10 +18,13 @@ const Cta = () => {
           Are you still facing confusion?
         </motion.p>
         <p className="text-white text-lg mt-4  md:text-left text-center">
-          Dr. Yogesh Jain, the best internal medicine specialist, is here to
-          offer professional guidance for the optimal cure. Book a consultation
-          now to gain clarity and embark on your journey to improved well-being
-          with confidence.
+          Dr. Yogesh Jain is a compassionate best internal medicine doctor in
+          mumbai, recognized as one of the best physician in Mumbai, with
+          extensive experience in treating various illnesses. He specializes in
+          diabetic, cardiometabolic, and infectious diseases, particularly in
+          patients with underlying conditions. Dr. Yogesh takes a holistic
+          approach to patient care, considering physical, emotional, and
+          socio-economic aspects.
         </p>
       </div>
       <div className="my-8 max-0 mx-auto md:mx-0">
