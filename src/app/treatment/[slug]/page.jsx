@@ -98,7 +98,7 @@ const Page = ({ children }) => {
       {data && <BreadCrumbs breadCrumbs={breadcrumbs} />}
       {data ? (
         <div className="flex justify-center flex-col items-center my-10">
-          <p className="text-3xl font-semibold text-green-700">{data.name}</p>
+          <h1 className="text-3xl font-semibold text-green-700">{data.name}</h1>
           <p className="mt-2 text-center text-gray-500">{data.desc}</p>
           <div className="flex flex-wrap md:max-w-7xl mt-10">
             <div className="md:w-1/2 border-r-2 border-grey-100 px-6 w-full">

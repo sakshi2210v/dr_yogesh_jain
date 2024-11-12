@@ -62,9 +62,9 @@ const page = () => {
               Gallery
             </p>
           </div>
-          <p className="md:text-3xl text-2xl text-center mt-4 font-semibold">
+          <h1 className="md:text-3xl text-2xl text-center mt-4 font-semibold">
             How our <span className="text-secondary"> Clinic </span>looks like?
-          </p>
+          </h1>
 
           <div className="  mb-12 mt-12 grid md:grid-cols-4 gap-[20px] mx-auto md:max-w-7xl max-w-6xl ">
             <Image src={img1} alt="" className="mx-auto rounded-lg " />

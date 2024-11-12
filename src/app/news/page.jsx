@@ -45,9 +45,9 @@ const page = () => {
       <div>
         <BreadCrumbs breadCrumbs={breadcrumbs} />
         <div className="bg-green-100 shadow-sm my-8  border border-green-300 rounded-full mx-auto px-4 py-2 max-w-[240px]">
-          <p className="text-lg  font-semibold text-green-600 text-center">
+          <h1 className="text-lg  font-semibold text-green-600 text-center">
             News
-          </p>
+          </h1>
         </div>
         <NewsCards />
         <Cta />

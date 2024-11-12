@@ -100,7 +100,7 @@ const Info = () => {
           </div>
         </div>
         <div className=" md:w-[50%] w-full  md:px-16">
-          <motion.p
+          <motion.h1
             variants={textVariant2}
             initial="hidden"
             whileInView="show"
@@ -110,7 +110,7 @@ const Info = () => {
             <span className="text-secondary">
               Quality Care, Seamless Admissions
             </span>
-          </motion.p>
+          </motion.h1>
           <div className="grid md:grid-cols-2  gap-[6px] gap-x-3 mt-10">
           {trustedhospital.map((e) => (
               <div key={e.name} className="md:max-w-full mx-auto w-[300px]  border-2 border-primary  p-4 rounded-lg">

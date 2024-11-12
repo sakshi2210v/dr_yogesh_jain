@@ -27,10 +27,10 @@ const Treatment = ({ bg }) => {
             Treatment
           </p>
         </div>
-        <p className="md:text-3xl text-2xl px-2 text-center mt-4 font-semibold">
+        <h1 className="md:text-3xl text-2xl px-2 text-center mt-4 font-semibold">
           What our <span className="text-secondary"> Doctor </span>has to share
           with you?
-        </p>
+        </h1>
         <div className="grid sm:grid-cols-3 row-span-3   gap-[20px] max-w-7xl mx-auto py-6 md:px-0 px-4">
           {data?.treatments?.map((item) => (
             <motion.div
