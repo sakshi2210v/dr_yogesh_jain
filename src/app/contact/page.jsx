@@ -9,12 +9,12 @@ import BreadCrumbs from "@/components/Breadcrumbs";
 import Head from "next/head";
 
 export const metadata = {
-  title: "Contact Dr. Yogesh Jain for Professional Gallery Insights",
+  title: "Best Physician in Lower Parel | Dr. Yogesh Jain Contact Details",
   icons: {
     icon: "/logo.jpg",
   },
   description:
-    "Get in touch with Dr. Yogesh Jain to learn more about his gallery and services. Reach out today for inquiries related to your health and wellness needs.",
+    "Get in touch with Dr. Yogesh Jain, the leading physician in Lower Parel, Mumbai. Book consultations for expert medical care across multiple specialties.",
 };
 const page = () => {
   const breadcrumbs = [
