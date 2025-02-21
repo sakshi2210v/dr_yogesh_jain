@@ -11,14 +11,32 @@ import Hospitals from "@/components/Hospitals";
 import Cta from "@/components/Cta";
 import Info from "@/components/Info";
 import Head from "next/head";
+import Script from "next/script";
+import Clarity from "@microsoft/clarity";
+
 export default function Home() {
+  const projectId = "qcaldpf5sj";
+  Clarity.init(projectId);
+
   return (
     <div className=" mx-auto">
       <Head>
         <title>Yogesh Jain</title>
         <link rel="icon" href="/logo.jpg" sizes="any" />
-
-        <script
+        {/* <Script
+          id="clarity-script"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+            (function(c,l,a,r,i,t,y){
+              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "qcaldpf5sj");
+          `,
+          }}
+        /> */}
+        {/* <script
           dangerouslySetInnerHTML={{
             __html: `
               (function(c,l,a,r,i,t,y){
@@ -28,7 +46,7 @@ export default function Home() {
               })(window, document, "clarity", "script", "qcaldpf5sj");
             `,
           }}
-        />
+        /> */}
 
         {/* Organization Schema - Medical Organization */}
         <script
