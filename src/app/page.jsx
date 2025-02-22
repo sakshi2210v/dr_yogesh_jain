@@ -23,7 +23,7 @@ export default function Home() {
       <Head>
         <title>Yogesh Jain</title>
         <link rel="icon" href="/logo.jpg" sizes="any" />
-        {/* <Script
+        <Script
           id="clarity-script"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
@@ -35,7 +35,7 @@ export default function Home() {
             })(window, document, "clarity", "script", "qcaldpf5sj");
           `,
           }}
-        /> */}
+        />
         {/* <script
           dangerouslySetInnerHTML={{
             __html: `
