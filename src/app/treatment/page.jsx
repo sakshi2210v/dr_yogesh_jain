@@ -6,12 +6,12 @@ import Head from "next/head";
 import React from "react";
 
 export const metadata = {
-  title: "Best Physician in Mumbai | Dr. Yogesh Jain Expert Medical Care",
+  title: "Best Physician in Lower Parel | Dr. Yogesh Jain Expert Medical Care",
   icons: {
     icon: "/logo.jpg",
   },
   description:
-    "Dr. Yogesh Jain, one of the best physicians in Mumbai, provides expert diagnosis and personalized treatment. Trust in his experience for comprehensive healthcare solutions.",
+    "Dr. Yogesh Jain, one of the best physician in lower parel provides expert diagnosis and personalized treatment. Trust in his healthcare solutions.",
 };
 
 const page = () => {
