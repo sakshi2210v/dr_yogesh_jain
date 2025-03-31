@@ -67,7 +67,7 @@ export default function Home() {
               },
             }),
           }}
-        />
+        /> 
 
         {/* {/* Local Business Schema - Physician  */}
         <script
