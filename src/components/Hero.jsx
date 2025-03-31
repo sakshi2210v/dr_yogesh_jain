@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import React from "react";
-import doctor from "../assets/Dr Yogesh Jain best physician in mumbai.png";
+import doctor from "../assets/doctor.png";
 import { motion } from "framer-motion";
 import { slideIn, textVariant, textVariant2 } from "@/utils/motion";
 import Button from "./Button";
@@ -30,7 +30,7 @@ const Hero = () => {
         initial="hidden"
         whileInView="show"
       >
-        <motion.p
+        <motion.h1
           variants={slideIn("up", 1, 0)}
           initial="hidden"
           whileInView="show"
@@ -42,7 +42,7 @@ const Hero = () => {
             Dr. Yogesh Jain&apos;s{" "}
           </span>
           Internal Medicine Practice.
-        </motion.p>
+        </motion.h1>
         <p className="md:text-xl text-lg mt-6 text-gray-600">
           Expert in adult health, offering personalized care for optimal
           well-being. Trust his vast experience and compassion at his Internal
@@ -65,7 +65,7 @@ const Hero = () => {
         initial="hidden"
         whileInView="show"
       >
-        <Image src={doctor} alt="Dr. Yogesh Jain, best physician in mumbai" className="rounded-lg mt-6" />
+        <Image src={doctor} className="rounded-lg mt-6" />
       </motion.div>
     </div>
     </div>

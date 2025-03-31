@@ -2,35 +2,18 @@
 import React from "react";
 import { Fragment } from "react";
 import { Tab } from "@headlessui/react";
-import doctor from "@/assets/Dr Yogesh Jain best physician in mumbai.png";
+import doctor from "@/assets/doctor.png";
 import Image from "next/image";
 import { slideIn } from "@/utils/motion";
 import { motion } from "framer-motion";
-import doc from '@/assets/icons/doc.png'
+import doc from "@/assets/icons/doc.png";
 import data from "@/data.json";
-import { AcademicCapIcon, ChartBarIcon, ChartPieIcon, CursorArrowRippleIcon } from "@heroicons/react/20/solid";
+import {
+  AcademicCapIcon,
+  CursorArrowRippleIcon,
+} from "@heroicons/react/20/solid";
 import TreatCard from "./TreatCard";
-const Tick = () => {
-  return (
-    <svg
-      width="32"
-      height="32"
-      viewBox="0 0 32 32"
-      fill="none"
-      className="mr-3 w-[32px]"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <circle cx="16" cy="16" r="15.6" stroke="#12AC49" stroke-width="0.8" />
-      <path
-        d="M9.41406 17.4126L12.2353 21.1743L22.5801 10.8296"
-        stroke="#12AC49"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-    </svg>
-  );
-};
+
 const Aboutus = () => {
   return (
     <div id="aboutus" className="max-w-7xl px-3 py-12 md:px-6 lg:px-8 mx-auto">
@@ -97,10 +80,11 @@ const Aboutus = () => {
                 whileInView={"show"}
                 variants={slideIn("left", 2, 0)}
               >
-                <Image src={doctor} alt="Dr. Yogesh Jain, best physician in mumbai" width="500" className="my-10" />
+                <Image src={doctor} width="500" alt="" className="my-10" />
                 <p className="text-primary text-xl mt-2">Dr. Yogesh Jain</p>
                 <p className="text-lg text-secondary">
-                MBBS, Diplomate of National Board (DNB), MD (Internal Medicine)
+                  MBBS, Diplomate of National Board (DNB), MD (Internal
+                  Medicine)
                 </p>
               </motion.div>
               <motion.div
@@ -116,7 +100,13 @@ const Aboutus = () => {
                 </p>
 
                 <p className="mt-10 md:text-lg text-gray-600">
-                Dr. Yogesh Jain is a compassionate Internal Medicine Physician, recognized as one of the best physician in Mumbai, with extensive experience in treating various illnesses. He specializes in diabetic, cardiometabolic, and infectious diseases, particularly in patients with underlying conditions. Dr. Yogesh takes a holistic approach to patient care, considering physical, emotional, and socio-economic aspects.
+                  Dr. Yogesh Jain is a compassionate Internal Medicine
+                  Physician, recognized as one of the best physician in Mumbai,
+                  with extensive experience in treating various illnesses. He
+                  specializes in diabetic, cardiometabolic, and infectious
+                  diseases, particularly in patients with underlying conditions.
+                  Dr. Yogesh takes a holistic approach to patient care,
+                  considering physical, emotional, and socio-economic aspects.
                   <br />
                   <br />
                   He is dedicated to delivering high-quality medical care and
@@ -136,10 +126,11 @@ const Aboutus = () => {
                 whileInView={"show"}
                 variants={slideIn("left", 2, 0)}
               >
-                <Image src={doctor} width="500" />
+                <Image src={doctor} alt="" width="500" />
                 <p className="text-primary text-xl mt-2">Dr. Yogesh Jain</p>
                 <p className="text-lg text-secondary">
-                MBBS, Diplomate of National Board (DNB), MD (Internal Medicine)
+                  MBBS, Diplomate of National Board (DNB), MD (Internal
+                  Medicine)
                 </p>
               </motion.div>
               <motion.div
@@ -148,10 +139,10 @@ const Aboutus = () => {
                 variants={slideIn("right", 2, 0)}
                 className="md:max-w-[50%] md:px-8  py-10"
               >
-                  <div className="flex  flex-wrap justify-center items-center md:mt-20">
-                {data?.treatments?.map((item) => (
-                  <TreatCard data={item} key={item.id}/>
-                ))}
+                <div className="flex  flex-wrap justify-center items-center md:mt-20">
+                  {data?.treatments?.map((item) => (
+                    <TreatCard data={item} key={item.id} />
+                  ))}
                 </div>
                 {/* <ul className="ulitem">
 
@@ -226,10 +217,11 @@ const Aboutus = () => {
                 whileInView={"show"}
                 variants={slideIn("left", 2, 0)}
               >
-                <Image src={doctor} width="500" />
+                <Image src={doctor} alt="" width="500" />
                 <p className="text-primary text-xl mt-2">Dr. Yogesh Jain</p>
                 <p className="text-lg text-secondary">
-                MBBS, Diplomate of National Board (DNB), MD (Internal Medicine)
+                  MBBS, Diplomate of National Board (DNB), MD (Internal
+                  Medicine)
                 </p>
               </motion.div>
               <motion.div

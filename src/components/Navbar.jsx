@@ -11,7 +11,7 @@ import {
 } from "@heroicons/react/20/solid";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import treate from "../assets/icons/First aid medical kit.png";
+import treate from "../assets/icons/icon.png";
 import { navVariants } from "@/utils/motion";
 import Button from "./Button";
 const Navbar = () => {
@@ -28,7 +28,7 @@ const Navbar = () => {
         className="text-2xl font-semibold text-blue-900 cursor-pointer"
         href="/"
       >
-        <img src="/Dr Yogesh Jain.png" alt="" srcset="" className="w-16 h-16" />
+        <img src="/logo.png" alt="" srcset="" className="w-16 h-16" />
       </Link>
       <ul
         className="z-[200] shadow-sm border border-gray-300 rounded-full md:px-4 py-3 md:flex hidden fixed top-[24px] bg-white mx-auto left-[50%]"
@@ -93,7 +93,6 @@ const Navbar = () => {
           >
             <Image
               src={treate}
-              alt="First aid medical kit.png"
               className="w-[29px] h-[29px] color-gray-600 mr-2"
             />
             <Link href="/treatment">Treatment</Link>

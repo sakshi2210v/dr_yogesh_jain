@@ -26,7 +26,7 @@ export default function Gallery() {
     <div className=" mx-auto m-4 my-24 md:p-0 p-2 ">
       <div className="bg-green-100 shadow-sm  border border-green-300 rounded-full mx-auto px-4 py-2 max-w-[240px]">
         <p className="text-lg  font-semibold text-green-600 text-center">
-       Gallery
+          Gallery
         </p>
       </div>
       <p className="md:text-3xl text-2xl px-2 text-center mt-4 font-semibold">
@@ -62,43 +62,90 @@ export default function Gallery() {
           onSlideChange={() => console.log("slide change")}
         >
           <SwiperSlide className="mx-auto">
-            <Image src={img1} width="600" className="mx-auto rounded-xl" />
+            <Image
+              src={img1}
+              alt=""
+              width="600"
+              className="mx-auto rounded-xl"
+            />
           </SwiperSlide>
           <SwiperSlide className="mx-auto">
-            <Image src={img2} width="600" className="mx-auto rounded-xl" />
+            <Image
+              src={img2}
+              alt=""
+              width="600"
+              className="mx-auto rounded-xl"
+            />
           </SwiperSlide>
           <SwiperSlide className="mx-auto">
-            <Image src={img3} width="600" className="mx-auto rounded-xl" />
+            <Image
+              src={img3}
+              alt=""
+              width="600"
+              className="mx-auto rounded-xl"
+            />
           </SwiperSlide>
           <SwiperSlide className="mx-auto">
-            <Image src={img4} width="600" className="mx-auto rounded-xl" />
+            <Image
+              src={img4}
+              alt=""
+              width="600"
+              className="mx-auto rounded-xl"
+            />
           </SwiperSlide>
           <SwiperSlide className="mx-auto">
-            <Image src={img5} width="600" className="mx-auto rounded-xl" />
+            <Image
+              src={img5}
+              alt=""
+              width="600"
+              className="mx-auto rounded-xl"
+            />
           </SwiperSlide>
           <SwiperSlide className="mx-auto">
-            <Image src={img6} width="600" className="mx-auto rounded-xl" />
+            <Image
+              src={img6}
+              alt=""
+              width="600"
+              className="mx-auto rounded-xl"
+            />
           </SwiperSlide>
           <SwiperSlide className="mx-auto">
-            <Image src={img7} width="600" className="mx-auto rounded-xl" />
+            <Image
+              src={img7}
+              alt=""
+              width="600"
+              className="mx-auto rounded-xl"
+            />
           </SwiperSlide>
           <SwiperSlide className="mx-auto">
-            <Image src={img8} width="600" className="mx-auto rounded-xl" />
+            <Image
+              src={img8}
+              alt=""
+              width="600"
+              className="mx-auto rounded-xl"
+            />
           </SwiperSlide>
           <SwiperSlide className="mx-auto">
-            <Image src={img9} width="600" className="mx-auto rounded-xl" />
+            <Image
+              src={img9}
+              alt=""
+              width="600"
+              className="mx-auto rounded-xl"
+            />
           </SwiperSlide>
           {/* <SwiperSlide className="mx-auto">
             <Image src={img10} width="600" className="mx-auto rounded-xl" />
           </SwiperSlide> */}
         </Swiper>
-       
       </div>
       <div className="flex justify-center mb-4">
-      <Link href="/gallery" className="bg-green-600 rounded-full text-white px-7 py-2 text-center mx-auto">
+        <Link
+          href="/gallery"
+          className="bg-green-600 rounded-full text-white px-7 py-2 text-center mx-auto"
+        >
           View More
         </Link>
-        </div>
+      </div>
     </div>
   );
 }
