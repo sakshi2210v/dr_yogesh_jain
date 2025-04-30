@@ -174,7 +174,9 @@ const Footer = () => {
               <div className="w-[10%] mr-3">
                 <ClockIcon width={30} color="#006BB6" className="mr-3" />
               </div>
-              <p className="text-table">Monday to Saturday - 7:30 pm to 11 pm</p>
+              <p className="text-table">
+                Monday to Saturday - 7:30 pm to 11 pm
+              </p>
             </div>
             <div className="flex my-2">
               <PhoneIcon width={30} color="#006BB6" className="mr-3" />
@@ -205,10 +207,10 @@ const Footer = () => {
               <div className="w-[10%] mr-2">
                 <MapPinIcon width={30} color="#16803C" />
               </div>
-                <p className="">
-                  Royal Garden, Next to Girnar Tower, Ambewadi, Kala Chowki,
-                  Mumbai-400033
-                </p>
+              <p className="">
+                Royal Garden, Next to Girnar Tower, Ambewadi, Kala Chowki,
+                Mumbai-400033
+              </p>
             </li>
             <li>
               <div className="flex my-2">
@@ -282,7 +284,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center space-y-6 md:order-2 mt-4">
+      {/* <div className="flex flex-col justify-center items-center space-y-6 md:order-2 mt-4">
         <h5 className="text-xl font-semibold leading-6 text-primary mr-4">
           Follow us on social media:
         </h5>
@@ -294,7 +296,7 @@ const Footer = () => {
             </a>
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
